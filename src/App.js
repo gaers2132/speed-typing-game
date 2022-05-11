@@ -23,8 +23,8 @@ function App() {
     console.log(text)
   }
 
-  function calculateWordCount(text){
-    const wordsArr = text.trim().split(" ")
+  function calculateWordCount(words){
+    const wordsArr = words.trim().split(" ")
     return wordsArr.filter(word => word !== "").length
   }
 
